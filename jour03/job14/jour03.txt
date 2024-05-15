@@ -1,0 +1,18 @@
+JOB14
+
+Récupérer une catégorie à l’aide de son id.
+
+
+
+const categoryId = ObjectId("66447b4acd53402ccc27e075");
+const category = db.category.findOne({ _id: categoryId });
+printjson(category);
+
+
+RESULTAT :
+{
+  _id: ObjectId('66447b4acd53402ccc27e075'),
+  name: 'Vêtements'
+}
+
+

@@ -1,0 +1,6 @@
+Job 1
+
+Il est possible d’utiliser MongoDB de plusieurs façons, à distance ou
+localement en l’installant sur votre ordinateur. Installez sur votre ordinateur
+MongoDb en suivant les instructions de la documentation officielle.
+Si tout s'est bien passé, vous devriez avoir accès à MongoDB compass :

@@ -1,0 +1,23 @@
+
+job05
+
+
+Créez une nouvelle collection nommée “category” et insérez différentes
+catégories en une seule ligne de commande (au minimum 3).
+
+
+db.category.insertMany([
+  { name: "Vêtements" },
+  { name: "Accessoires" },
+  { name: "Chaussures" }
+])
+
+
+{
+  acknowledged: true,
+  insertedIds: {
+    '0': ObjectId('66447b4acd53402ccc27e075'),
+    '1': ObjectId('66447b4acd53402ccc27e076'),
+    '2': ObjectId('66447b4acd53402ccc27e077')
+  }
+}

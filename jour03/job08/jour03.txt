@@ -1,0 +1,16 @@
+JOB08 
+
+
+Écrire une requête permettant d’afficher seulement deux catégories.
+
+
+db.category.find().limit(2)
+
+{
+  _id: ObjectId('66447b4acd53402ccc27e075'),
+  name: 'Vêtements'
+}
+{
+  _id: ObjectId('66447b4acd53402ccc27e076'),
+  name: 'Accessoires'
+}

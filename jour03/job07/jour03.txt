@@ -1,0 +1,22 @@
+JOB07
+
+
+Récupérez l’ensemble des données de la collection “category”.
+
+db.category.find()
+
+
+{
+  _id: ObjectId('66447b4acd53402ccc27e075'),
+  name: 'Vêtements'
+}
+
+{
+  _id: ObjectId('66447b4acd53402ccc27e076'),
+  name: 'Accessoires'
+}
+
+{
+  _id: ObjectId('66447b4acd53402ccc27e077'),
+  name: 'Chaussures'
+}

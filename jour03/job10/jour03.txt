@@ -1,0 +1,7 @@
+Job 10
+
+Écrire une requête permettant de récupérer l’ensemble des produits classés
+par prix décroissant.
+
+
+db.product.find().sort({ price: -1 })

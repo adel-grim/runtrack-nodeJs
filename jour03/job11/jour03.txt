@@ -1,0 +1,9 @@
+Job 11
+
+Écrire une requête permettant de récupérer les produits ayant un prix
+supérieur à 5 euros et un stock inférieur à 100.
+Résultat attendu :
+
+
+
+db.product.find({ price: { $gt: 5 }, quantity: { $lt: 100 } })

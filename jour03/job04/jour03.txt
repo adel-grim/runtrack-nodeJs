@@ -1,0 +1,33 @@
+JOB04
+
+
+Ajoutez les documents suivants à votre collection “product” :
+➔ name ⇒ “Pantalon noir”, description ⇒ “Un pantalon noir”, price ⇒ 14,99,
+quantity ⇒ 12
+➔ name ⇒ “chaussettes”, description ⇒ “chaussettes cool !”, price ⇒ 6,
+quantity ⇒ 6
+
+
+
+db.product.insertMany([
+  {
+    name: "Pantalon noir",
+    description: "Un pantalon noir",
+    price: 14.99,
+    quantity: 12
+  },
+  {
+    name: "chaussettes",
+    description: "chaussettes cool !",
+    price: 6,
+    quantity: 6
+  }
+])
+
+{
+  acknowledged: true,
+  insertedIds: {
+    '0': ObjectId('66447a90cd53402ccc27e073'),
+    '1': ObjectId('66447a90cd53402ccc27e074')
+  }
+}

@@ -1,0 +1,58 @@
+JOB16
+
+
+Créer une relation entre la collection “product” et “category” à l’aide d’un
+champ nommé “category_id”.
+Modifier et récupérer l’ensemble des produits et leurs catégories.
+
+
+db.product.updateMany({}, { $set: { category_id: ObjectId("66447b4acd53402ccc27e075") } });
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 4,
+  modifiedCount: 4,
+  upsertedCount: 0
+}
+
+db.product.updateMany({}, { $set: { category_id: ObjectId("66447b4acd53402ccc27e076") } });
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 4,
+  modifiedCount: 4,
+  upsertedCount: 0
+}
+
+db.product.updateMany({}, { $set: { category_id: ObjectId("66447b4acd53402ccc27e077") } });
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 4,
+  modifiedCount: 4,
+  upsertedCount: 0
+}
+
+{
+  _id: ObjectId('66447932cd53402ccc27e071'),
+  productName: 'chaussure',
+  categoryName: 'Chaussures',
+  price: 35,
+  quantity: 120
+}
+
+{
+  _id: ObjectId('66447a80cd53402ccc27e072'),
+  productName: 'pantalon noir',
+  categoryName: 'Chaussures',
+  price: 14.99,
+  quantity: 12
+}
+
+{
+  _id: ObjectId('66447a80cd53402ccc27e072'),
+  productName: 'pantalon noir',
+  categoryName: 'Chaussures',
+  price: 14.99,
+  quantity: 12
+}

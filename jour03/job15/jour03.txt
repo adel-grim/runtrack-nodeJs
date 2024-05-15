@@ -1,0 +1,21 @@
+
+
+Job 15
+
+Changer le nom de la catégorie “bébé” en “Vêtements pour enfant”.
+
+
+
+
+db.category.updateOne(
+    { name: "Accessoires" },
+    { $set: { name: "Vêtements pour enfant" } }
+);
+
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 1,
+  upsertedCount: 0
+}

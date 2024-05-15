@@ -1,0 +1,8 @@
+Job 12
+
+Écrire une requête permettant de récupérer les produits ayant un prix
+supérieur à 14.99 euros ou un stock supérieur à 100.
+Résultat attendu :
+
+
+db.product.find({ $or: [{ price: { $gt: 14.99 } }, { quantity: { $gt: 100 } }] })

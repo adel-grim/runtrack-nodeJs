@@ -1,0 +1,47 @@
+Job 17
+
+Récupérer la catégorie qui possède le moins d'articles.
+
+
+
+
+db.product.aggregate([
+  {
+    $group: {
+      _id: "$category_id",
+      totalProducts: { $sum: 1 }
+    }
+  },
+  {
+    $lookup: {
+      from: "category",
+      localField: "_id",
+      foreignField: "_id",
+      as: "category"
+    }
+  },
+  {
+    $unwind: "$category"
+  },
+  {
+    $sort: { totalProducts: 1 }
+  },
+  {
+    $limit: 1
+  },
+  {
+    $project: {
+      count: "$totalProducts",
+      _id: 1,
+      name: "$category.name"
+    }
+  }
+]);
+
+RESULTAT: 
+
+{
+  _id: ObjectId('66447b4acd53402ccc27e077'),
+  count: 4,
+  name: 'Chaussures'
+}
