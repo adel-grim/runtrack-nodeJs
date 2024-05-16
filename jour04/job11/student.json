@@ -1,0 +1,23 @@
+[
+  {
+    "_id": "6645e9b4e8034c81bf53bab8",
+    "lastname": "LeBricoleur",
+    "firstname": "Bob",
+    "students_number": "123456",
+    "year_id": null
+  },
+  {
+    "_id": "6645ea554a6872459fe9590a",
+    "lastname": "Doe",
+    "firstname": "John",
+    "students_number": "789012",
+    "year_id": "Master 1"
+  },
+  {
+    "_id": "6645ea554a6872459fe9590b",
+    "lastname": "Dupont",
+    "firstname": "Marine",
+    "students_number": "345678",
+    "year_id": "Bachelor 3"
+  }
+]

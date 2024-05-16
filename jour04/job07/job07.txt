@@ -1,0 +1,11 @@
+node index.js
+Entrez le nom de famille de l'étudiant : LeBricoleur
+Connecté à MongoDB
+Informations de l'étudiant avec le nom de famille LeBricoleur :
+{
+  _id: new ObjectId('6645e9b4e8034c81bf53bab8'),
+  lastname: 'LeBricoleur',
+  firstname: 'Bob',
+  students_number: '123456',
+  year_id: null
+}

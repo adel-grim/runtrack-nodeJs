@@ -1,0 +1,10 @@
+node index.js
+Entrez le numéro d'étudiant : 123456
+Connecté à MongoDB
+Étudiants avec un numéro d'étudiant supérieur à 123456 :
+[
+  { lastname: 'Doe', firstname: 'John', year: 'Bachelor 2' },
+  { lastname: 'Dupont', firstname: 'Marine', year: 'Bachelor 3' }
+]
+Connexion fermée
+

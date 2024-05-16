@@ -1,0 +1,31 @@
+Ouvrir git bash dans le dossier Job 4 
+taper : node index.js
+Connecté à MongoDB
+Années insérées avec succès
+Étudiants insérés avec succès
+Connexion fermée
+
+Aller sur mongoDB :
+
+db.student.find()
+{
+  _id: ObjectId('6645ce068f0ed88578375fe2'),
+  lastname: 'LeBricoleur',
+  firstname: 'Bob',
+  students_number: '123456',
+  year_id: 'Bachelor 1'
+}
+{
+  _id: ObjectId('6645ce068f0ed88578375fe3'),
+  lastname: 'Doe',
+  firstname: 'John',
+  students_number: '789012',
+  year_id: 'Bachelor 2'
+}
+{
+  _id: ObjectId('6645ce068f0ed88578375fe4'),
+  lastname: 'Dupont',
+  firstname: 'Marine',
+  students_number: '345678',
+  year_id: 'Bachelor 3'
+}

@@ -1,0 +1,36 @@
+JOB 3:
+
+Dans votre fichier “index.js”, définir le schéma nommé “student” avec les
+étudiants suivant :
+➔ Bob LeBricoleur
+➔ John Doe
+➔ Marine Dupont
+
+sur git bash : node index.js
+
+sur mongodb:
+
+use LaPlateforme
+db.student.find()
+
+{
+  _id: ObjectId('6645cb73e94f2ee2643209d0'),
+  lastname: 'LeBricoleur',
+  firstname: 'Bob',
+  students_number: '123456',
+  year_id: null
+}
+{
+  _id: ObjectId('6645cb73e94f2ee2643209d1'),
+  lastname: 'Doe',
+  firstname: 'John',
+  students_number: '789012',
+  year_id: null
+}
+{
+  _id: ObjectId('6645cb73e94f2ee2643209d2'),
+  lastname: 'Dupont',
+  firstname: 'Marine',
+  students_number: '345678',
+  year_id: null
+}

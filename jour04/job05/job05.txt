@@ -1,0 +1,15 @@
+Sur git bash :
+
+-node index.js
+
+Connecté à MongoDB
+Étudiants avec leurs cursus :
+[
+  { lastname: 'LeBricoleur', firstname: 'Bob' },
+  { lastname: 'Doe', firstname: 'John' },
+  { lastname: 'Dupont', firstname: 'Marine' },
+  { lastname: 'LeBricoleur', firstname: 'Bob', year: 'Bachelor 1' },
+  { lastname: 'Doe', firstname: 'John', year: 'Bachelor 2' },
+  { lastname: 'Dupont', firstname: 'Marine', year: 'Bachelor 3' }
+]
+Connexion fermée

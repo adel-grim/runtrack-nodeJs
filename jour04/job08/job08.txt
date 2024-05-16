@@ -1,0 +1,17 @@
+node index.js
+Connecté à MongoDB
+Cursus mis à jour avec succès pour l'étudiant avec l'ID 6645ea554a6872459fe9590a
+Connexion fermée
+
+
+
+CONSOLE MANGO RECHERCHE DE LETUDIANT CONCERNE :
+
+
+{
+  _id: ObjectId('6645ea554a6872459fe9590a'),
+  lastname: 'Doe',
+  firstname: 'John',
+  students_number: '789012',
+  year_id: 'Master 1'  <-------------------- Cursus bel et bien changé.
+}

@@ -1,0 +1,9 @@
+Job 9
+
+Un étudiant vient de se faire renvoyer, écrire une requête permettant de
+supprimer un étudiant de la base données.
+
+node index.js
+Connecté à MongoDB
+Étudiant supprimé avec succès avec l'ID 6645ea554a6872459fe95909  <---------- Bob LeBricoleur
+Connexion fermée

@@ -1,0 +1,55 @@
+JOB 1 :
+
+Créez une base de données nommée “LaPlateforme” contenant les
+collections suivantes avec :
+● “student” avec les champs “id”, “lastname”, “firstname”,
+“students_number”, “year_id”
+● “year” avec le champ “year”
+
+MONGODB :
+
+// Création de la collection "student" avec les champs spécifiés
+
+db.createCollection("student", {
+   validator: {
+      $jsonSchema: {
+         bsonType: "object",
+         required: ["lastname", "firstname", "students_number", "year_id"],
+         properties: {
+            lastname: {
+               bsonType: "string",
+               description: "Nom de l'étudiant"
+            },
+            firstname: {
+               bsonType: "string",
+               description: "Prénom de l'étudiant"
+            },
+            students_number: {
+               bsonType: "string",
+               description: "Numéro d'étudiant de l'étudiant"
+            },
+            year_id: {
+               bsonType: "objectId",
+               description: "ID de l'année à laquelle l'étudiant est inscrit"
+            }
+         }
+      }
+   }
+})
+
+// Création de la collection "year" avec le champ "year"
+
+db.createCollection("year", {
+   validator: {
+      $jsonSchema: {
+         bsonType: "object",
+         required: ["year"],
+         properties: {
+            year: {
+               bsonType: "int",
+               description: "Année scolaire"
+            }
+         }
+      }
+   }
+})

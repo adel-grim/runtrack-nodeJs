@@ -1,0 +1,12 @@
+Job 11
+
+Exporter les données de votre collection dans un JSON à l’aide de Node.JS
+
+
+node index.js
+Connecté à MongoDB
+Connexion fermée
+Données de la collection student exportées avec succès vers student.json
+
+
+<--! Le fichier JSON s'est crée avec succés. Il se trouve dans le dossier job11.-->
